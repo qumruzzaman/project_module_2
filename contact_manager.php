@@ -6,8 +6,8 @@ $name2 = "";
 $phone2 = "";
 
 while(true){
-    echo "==== Welcome to Contact manger ====\n";
-    echo "1. Add Contact\n2. View Contacts\n3. Exit\nChoice your option(1/2/3): ";
+    echo "\n==== Welcome to Contact manger ====\n";
+    echo "1. Add Contact\n2. View Contacts\n3. Exit\nChoose your option (1/2/3):";
     $option = trim(fgets(STDIN));
     //Add Contact
     if($option == 1){              
@@ -49,3 +49,4 @@ while(true){
         echo "You entered invalid choice\n";
     }
 }
+?>
